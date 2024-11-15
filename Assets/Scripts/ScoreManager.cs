@@ -10,7 +10,7 @@ public class ScoreManager : Singleton<ScoreManager>
 
     private void Update()
     {
-        scoreText.text = "Score = " + score;
+        scoreText.text = "Number of Chickens: " + score;
     }
 
 }
